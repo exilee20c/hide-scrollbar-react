@@ -1,0 +1,30 @@
+{
+  "name": "hide-scrollbar-react",
+  "version": "1.0.0",
+  "description": "Wrap this module around your kind of viewable components, and it's scrollbar will automately disappear, and appear when you move your scroll position.\nIt can only supports non-FireFox browsers because I have no found the way to hide a basically given scrollbar's css style.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exilee20c/hide-scrollbar-react.git"
+  },
+  "keywords": [
+    "auto",
+    "hide",
+    "scrollbar",
+    "safari-like",
+    "react",
+    "custom"
+  ],
+  "author": "exilee20c",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exilee20c/hide-scrollbar-react/issues"
+  },
+  "homepage": "https://github.com/exilee20c/hide-scrollbar-react#readme",
+  "dependencies": {
+    "react": "^16.4.1"
+  }
+}
