@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import './Scrollable.scss';
+import './Scrollable.css';
 
 class Scrollable extends Component {
   constructor(props) {
     super(props);
 
+    this.constant = {
+      // 스크롤이 노출상태를 얼마간 유지하는가
+      SCROLL_EXPOSE_TIME_MILLIS: 1200,
+    };
+
     this.state = {
-      // 스크롤 썸이 보이는지 여부 ( 스크롤시, 마우스 진입시 1.2초간 노출 )
+      // 스크롤 썸이 보이는지 여부 ( 스크롤시, 마우스 진입시 this.constant.SCROLL_EXPOSE_TIME_MILLIS ms동안 노출 )
       is_appear: false,
       scroll_disappear_timing: 0,
 
@@ -48,7 +53,7 @@ class Scrollable extends Component {
       resize_cursor: this.state.resize_cursor + 1,
     });
 
-    let timeout = window.setTimeout(() => this.setState({is_appear: false}), 1200);
+    let timeout = window.setTimeout(() => this.setState({is_appear: false}), this.constant.SCROLL_EXPOSE_TIME_MILLIS);
 
     this.setState({scroll_disappear_timing: timeout});
   }

@@ -4,6 +4,10 @@
   }
 }
 
+body {
+  margin: 0;
+}
+
 section.bp-scrollable-wrapper {
   position: relative;
   height: 100%;
