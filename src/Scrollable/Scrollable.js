@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Section from "./Scrollable_style";
+import './Scrollable.css';
 
 class Scrollable extends Component {
   constructor(props) {
@@ -175,7 +175,7 @@ class Scrollable extends Component {
         (scrollable_inner_height - scrollable_outer_height));
 
     return (
-      <Section style={this.props.style}>
+      <section className="exl-scrollable" style={this.props.style}>
         <div
           className="exl-scrollable-container"
           style={this.props.inner_style}
@@ -209,7 +209,7 @@ class Scrollable extends Component {
             onMouseDown={this.mouseScrollStart}
           />
         </div>
-      </Section>
+      </section>
     );
   }
 
