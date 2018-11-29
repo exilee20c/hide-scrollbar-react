@@ -1,6 +1,9 @@
 [![npm-badge]][npm]
 [![npm-dm-badge]][npm-dm]
 [![npm-size-badge]][npm-size]
+[![FOSSA Status Shield](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fexilee20c%2Fhide-scrollbar-react.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fexilee20c%2Fhide-scrollbar-react?ref=badge_shield)
+[![MIT LISENCE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/exilee20c/hide-scrollbar-react/blob/master/LICENSE)
+
 
 # hide-scrollbar-react
 
@@ -37,5 +40,4 @@ in render( ) method
 
 ## License
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fexilee20c%2Fhide-scrollbar-react.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fexilee20c%2Fhide-scrollbar-react?ref=badge_large)
-[![MIT LISENCE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/exilee20c/hide-scrollbar-react/blob/master/LICENSE)
+[![FOSSA Status Large](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fexilee20c%2Fhide-scrollbar-react.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fexilee20c%2Fhide-scrollbar-react?ref=badge_large)
