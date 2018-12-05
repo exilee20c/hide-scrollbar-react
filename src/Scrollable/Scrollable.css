@@ -26,16 +26,16 @@ section.exl-scrollable > div.exl-scrollable-container::-webkit-scrollbar {
 
 section.exl-scrollable > div.exl-scrollable-scrollbar-wrapper {
   position: absolute;
-  top: 4px;
+  top: 2px;
   right: 0;
   padding: 0 1px;
   box-sizing: border-box;
-  bottom: 4px;
-  width: 18px;
+  bottom: 2px;
+  width: 10px;
   opacity: 0;
   overflow: visible;
   z-index: 10000;
-  background-color: rgba(247, 247, 247, 0.8);
+  background-color: rgba(240, 240, 240, 0.3);
   transition: opacity 0.2s ease;
   user-select: none;
 }
@@ -58,45 +58,44 @@ section.exl-scrollable > div.exl-scrollable-scrollbar-wrapper:active {
 
 section.exl-scrollable > div.exl-scrollable-scrollbar-wrapper > div.exl-scrollable-scrollbar-thumb {
   position: absolute;
-  right: 5px;
-  width: 8px;
+  right: 2px;
+  width: 6px;
   height: 6px;
-  background-color: rgba(187, 187, 187, 0.8);
-  border-radius: 100px;
+  background-color: rgba(102, 102, 102, 0.8);
   transition: height 0.4s ease-in-out;
   user-select: none;
 }
 
 section.exl-scrollable > div.exl-scrollable-scrollbar-wrapper > div.exl-scrollable-scrollbar-thumb:hover {
-  background-color: rgba(187, 187, 187, 0.9);
+  background-color: rgba(102, 102, 102, 0.9);
 }
 
 section.exl-scrollable > div.exl-scrollable-scrollbar-wrapper > div.exl-scrollable-scrollbar-thumb:active {
-  background-color: rgba(187, 187, 187, 1);
+  background-color: rgba(102, 102, 102, 1);
 }
 
 section.exl-scrollable > div.exl-scrollable-scrollbar-wrapper:hover > div.exl-scrollable-scrollbar-thumb {
-  background-color: rgba(187, 187, 187, 0.9);
+  background-color: rgba(102, 102, 102, 0.9);
 }
 
 section.exl-scrollable > div.exl-scrollable-scrollbar-wrapper:before {
   content: "";
   position: absolute;
   right: 0;
-  width: 18px;
-  height: 4px;
-  top: -4px;
-  background-color: rgba(247, 247, 247, 0.8);
+  width: 10px;
+  height: 2px;
+  top: -2px;
+  background-color: rgba(240, 240, 240, 0.3);
 }
 
 section.exl-scrollable > div.exl-scrollable-scrollbar-wrapper:after {
   content: "";
   position: absolute;
   right: 0;
-  width: 18px;
-  height: 4px;
-  bottom: -4px;
-  background-color: rgba(247, 247, 247, 0.8);
+  width: 10px;
+  height: 2px;
+  bottom: -2px;
+  background-color: rgba(240, 240, 240, 0.3);
 }
 
 @-moz-document url-prefix() {

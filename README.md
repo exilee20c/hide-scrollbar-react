@@ -1,6 +1,8 @@
 [![npm-badge]][npm]
 [![npm-dm-badge]][npm-dm]
 [![npm-size-badge]][npm-size]
+[![build-badge]][build]
+[![coveralls-badge]][coveralls]
 [![FOSSA Status Shield](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fexilee20c%2Fhide-scrollbar-react.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fexilee20c%2Fhide-scrollbar-react?ref=badge_shield)
 [![MIT LISENCE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/exilee20c/hide-scrollbar-react/blob/master/LICENSE)
 
@@ -37,6 +39,10 @@ in render( ) method
 [npm-dm-badge]: https://img.shields.io/npm/dm/hide-scrollbar-react.svg
 [npm-size]: https://packagephobia.now.sh/badge?p=hide-scrollbar-react
 [npm-size-badge]: https://badgen.now.sh/badge/install%20size/63.2%20kB/44CC11
+[build-badge]: https://img.shields.io/travis/exilee20c/hide-scrollbar-react/master.png?style=flat-square
+[build]: https://travis-ci.org/exilee20c/hide-scrollbar-react
+[coveralls-badge]: https://img.shields.io/coveralls/exilee20c/hide-scrollbar-react/master.png?style=flat-square
+[coveralls]: https://coveralls.io/github/exilee20c/hide-scrollbar-react
 
 ## License
 
