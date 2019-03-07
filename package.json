@@ -1,6 +1,6 @@
 {
   "name": "hide-scrollbar-react",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "just type the code <Scrollable>{your-great-contents}</Scrollable>",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -25,9 +25,14 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
     "nwb": "0.23.x",
+    "nwb-sass": "^0.9.0",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
   },
   "author": {
     "name": "exilee20c",

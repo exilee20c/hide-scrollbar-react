@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 
-import Scrollable from "../../src";
+import Scrollable from "src";
 import check from "./check";
 import "./reset.css";
 
