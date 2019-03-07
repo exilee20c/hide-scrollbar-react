@@ -1,27 +1,85 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 
-import Example from "../../src";
+import Scrollable from "../../src";
+import check from "./check";
+import "./reset.css";
 
 class Demo extends Component {
   render() {
+    const Content = () => {
+      console.log("render content");
+
+      return (
+        <div
+          style={{
+            width: "2000px",
+            height: "2000px",
+            backgroundImage: `url(${check})`
+          }}
+        />
+      );
+    };
+
     return (
       <div
         style={{
-          padding: "200px 300px",
           height: "100vh",
-          boxSizing: "border-box"
+          display: "flex",
+          flexFlow: "row",
+          justifyContent: "center",
+          alignItems: "center"
         }}
       >
-        <Example>
+        <div>
+          <h3
+            style={{
+              fontSize: "1.5",
+              marginBottom: "0.5em",
+              textAlign: "center"
+            }}
+          >
+            2000 x 2000 content with Scrollable
+          </h3>
           <div
             style={{
-              width: "2000px",
-              height: "2000px",
-              backgroundColor: "rgba(200, 0, 0, 0.5)"
+              margin: "0 12px",
+              width: "400px",
+              height: "400px"
             }}
-          />
-        </Example>
+          >
+            <Scrollable>
+              <Content />
+            </Scrollable>
+          </div>
+        </div>
+        <div>
+          <h3
+            style={{
+              fontSize: "1.5",
+              marginBottom: "0.5em",
+              textAlign: "center"
+            }}
+          >
+            2000 x 2000 content without Scrollable
+          </h3>
+          <div
+            style={{
+              margin: "0 12px",
+              width: "400px",
+              height: "400px",
+              overflow: "scroll"
+            }}
+          >
+            <div
+              style={{
+                width: "2000px",
+                height: "2000px",
+                backgroundImage: `url(${check})`
+              }}
+            />
+          </div>
+        </div>
       </div>
     );
   }
